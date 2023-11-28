@@ -1,0 +1,47 @@
+.chat-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.chat {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.header {
+    background-color: #34ab43; /* Dark background color */
+    color: #ffffff; /* Text color */
+    padding: 20px 0; /* Add padding */
+}
+
+.logo {
+    max-height: 40px; /* Set the maximum height of the logo */
+}
+
+.title {
+    margin-bottom: 0; /* Remove default margin for the title */
+}
+
+.welcome-text {
+    font-size: 18px; /* Adjust the font size for welcome text */
+    margin-bottom: 20px; /* Add spacing below the welcome text */
+}
+
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Text color */
+    padding: 10px 0; /* Add padding */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    margin: 0;
+}
+
+.container {
+    flex: 1; /* Allow the container to grow to fill available space */
+}
